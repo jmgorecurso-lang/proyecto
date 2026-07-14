@@ -580,7 +580,217 @@
                     </div>
                 </div>
             </div>
+            <div class="hacks" id="hacks">
+                <div class="containerHacks">
 
+                    <!-- Se elimina max-height fijo para evitar cortes en las tarjetas -->
+                    <div class="pe-1">
+
+                        <!-- CORRECCIÓN EN EL CONTENEDOR: Se quita la clase "row" y se aplican estilos inline para fijar 4 elementos -->
+                        <div class="d-flex flex-nowrap overflow-x-auto pb-3 pt-1"
+                            style="gap: 12px; scrollbar-width: thin; -webkit-overflow-scrolling: touch;">
+
+                            <!-- Tarjeta 1 geolocalizacion -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/cinfo.png" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 1">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://www.hirensbootcd.org/" target="miFrame"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">crystaldiskinfo</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Chequea la salud de tus discos y pendrives.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 2 -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/hwinfo.png" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 2">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="#"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Hwinfo</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Diagnostico completo de hardware y sensores</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 3 -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/rescatux.png" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 3">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="#"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">RescaTux</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Repara el problema de arranque de tu equipo.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 4 -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/yumi.png" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 4">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="#"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Yumi</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Creador de usb multiboot.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 5 (Se desplaza automáticamente hacia la derecha fuera de pantalla) -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/hirens.png" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 5">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="#"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Hiren's
+                                                        Boot</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Entorno de rescate completo basado en Windows.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta 6 (Se desplaza automáticamente hacia la derecha fuera de pantalla) -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/medicat.png" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 5">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="#"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">MediCat</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    la app open source que instalas en un USB para emergencias en
+                                                    Windows.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta 7 (Se desplaza automáticamente hacia la derecha fuera de pantalla) -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/rufus.png" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 5">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="#"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Rufus</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Rufus es una utilidad que le ayuda a formatear y crear soportes USB
+                                                    de arranque, como «pendrives», tarjetas de memoria...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta 8 (Se desplaza automáticamente hacia la derecha fuera de pantalla) -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/calcuFont.png" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 5">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://www.geeknetic.es/calculadora-fuente-alimentacion/"
+                                                        target="miFrame"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Calc
+                                                        Fuente Alimentacion</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Esta herramienta permite calcular en función de los componentes del
+                                                    equipo, la potencia en vatios máxima que consumirá y por tanto la
+                                                    potencia que ha de otorgar la fuente de alimentación..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!-- Cierre contenedor flex -->
+                    </div>
+                </div>
+
+            </div>
         </div>
         <main>
 

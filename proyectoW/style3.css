@@ -1,12 +1,37 @@
 :root{
 
 }
+@keyframes caerMenu {
+    0% {
+        transform: translate(-50%, -0px);
+        opacity: 0;
+    }
+    25% {
+        transform: translate(-50%,, -0px);
+    }
+
+    60% {
+        transform: translate(-50%, 0px);
+        opacity: 0.5;
+    }
+
+    80% {
+        transform: translate(-50%, 1px);
+        opacity: 1;
+    }
+    90% {
+        transform: translate (-50%, 0px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate (-50%, 1px);
+        opacity: 1;
+    }
 body{
     background-color: #646464 !important;
     min-height: 100vh; 
     margin: 0 ;
-    
-}
+   }
 
 .page-container {
     max-width: 1400px; /* Usa max-width para que sea responsivo en pantallas chicas */
