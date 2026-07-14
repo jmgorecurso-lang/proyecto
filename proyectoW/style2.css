@@ -1,0 +1,90 @@
+body {
+    width: 1400px;
+    background-color: aquamarine;
+}
+
+header {
+    display: flex;
+    border: 1px solid;
+    height: 50px;
+    width: 1200px;
+    justify-self: center;
+}
+
+.logos {
+    display: block;
+    width: 80px;
+    height: 50px;
+
+    margin-left: 10px;
+}
+
+.logos img {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+header navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 150px;
+    gap: 50px;
+
+}
+
+header navbar a {
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+.submenu {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    gap: 12px;
+    padding-top: 4px;
+    padding-bottom: 16px;
+    width: 1200px;
+    height: 150px;
+
+    margin: 0 auto;
+    background-color: black;
+    white-space: nowrap;
+    /* Evita que las tarjetas salten de línea */
+   
+}
+
+.containerWeb {
+    display: none;
+    margin-left: 5px;
+}
+
+.containerUtils {
+    flex-shrink: 0 !important;
+  width: calc(25% - 9px);
+  min-width: 250px;
+  height: 90px;
+  
+}
+
+.containerUtils .foto {
+    width: 100px;
+    height: 100px;
+}
+
+iframe {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    height: 750px;
+}

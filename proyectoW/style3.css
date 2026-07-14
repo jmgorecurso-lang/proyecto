@@ -1,0 +1,122 @@
+:root{
+
+}
+body{
+    background-color: #646464 !important;
+    min-height: 100vh; 
+    margin: 0 ;
+    
+}
+
+.page-container {
+    max-width: 1400px; /* Usa max-width para que sea responsivo en pantallas chicas */
+    width: 100%;
+    margin: 0 auto;    /* Centra el contenido */
+    padding: 20px;     /* Espaciado interno opcional para que el texto no pegue a los bordes */
+}
+
+header {
+    display: flex;
+    border: 1px solid;
+    height: 50px;
+    width: 1200px;
+    margin: 0 auto; /* Corrección: Forma estándar de centrar el header */
+}
+
+.logos {
+    display: block;
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.logos img {
+    width: 100%;
+    height: 100%; /* Asegura que ocupe el alto completo */
+    object-fit: contain;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+header navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 150px;
+    gap: 50px;
+   
+}
+
+header navbar a {
+    
+    text-decoration: none;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 20px;
+    align-self: center;
+     font-family: "Audiowide", sans-serif;
+}
+
+/* ==========================================================================
+   CORRECCIÓN DEL SUBMENÚ Y CARRUSEL DE TARJETAS
+   ========================================================================== */
+
+.submenu {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    background: black;
+    padding: 25px 15px; /* Añade espacio interno para centrar verticalmente las tarjetas */
+    box-sizing: border-box;
+}
+
+/* El contenedor interno ahora ocupa el 100% y no limita el tamaño */
+.containerUtils {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.containerWeb {
+    width: 100%;
+    height: 100%;
+}
+
+/* NUEVA CLASE: Estiliza la barra de scroll (Chrome, Edge, Safari) */
+.utils-scroll-container::-webkit-scrollbar {
+    height: 6px; /* Grosor de la barra */
+}
+
+.utils-scroll-container::-webkit-scrollbar-track {
+    background: #222; /* Fondo de la barra sobre el fondo negro */
+    border-radius: 10px;
+}
+
+.utils-scroll-container::-webkit-scrollbar-thumb {
+    background: #555; /* Color de la barra arrastrable */
+    border-radius: 10px;
+}
+
+.utils-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+/* ==========================================================================
+   OTROS ELEMENTOS
+   ========================================================================== */
+
+.containerWeb {
+    display: none;
+    margin-left: 5px;
+}
+
+iframe {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    height: 750px;
+}

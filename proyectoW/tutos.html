@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Iceland&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <title>tb2</title>
+</head>
+
+<body>
+    <div class="page-container">
+         <header>
+            <div class="logos">
+                <img src="assets/logo.png" alt="logos">
+            </div>
+            <h1>ToolBox</h1>
+            <navbar>
+                <a href="#">Utils</a>
+                <a href="#">Webs Fabricantes</a>
+                <a href="#">Hacks</a>
+                <a href="#">Tutos</a>
+            </navbar>
+        </header>
+
+        
+        <div class="submenu">
+            <div class="tutos" id="tutos">
+                <div class="containerTuto">
+
+                    <!-- Se elimina max-height fijo para evitar cortes en las tarjetas -->
+                    <div class="pe-1">
+
+                        <!-- CORRECCIÓN EN EL CONTENEDOR: Se quita la clase "row" y se aplican estilos inline para fijar 4 elementos -->
+                        <div class="d-flex flex-nowrap overflow-x-auto pb-3 pt-1"
+                            style="gap: 12px; scrollbar-width: thin; -webkit-overflow-scrolling: touch;">
+
+                            <!-- Tarjeta 1 (Usa width matemático para garantizar exactamente 4 visibles en PC) -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/nowin.jpg" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 1">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://hardzone.es/tutoriales/reparacion/pc-windows-10-no-arranca-solucion/" target="miFrame"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Pantalla Negra</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Que hacer cuando no aparece el Sistema Operativo.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 2 Comptatibilidad-->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 2">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://hardzone.es/tutoriales/componentes/guia-completa-compatibilidad-pc/"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Guia de Compatibiliad</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Guía completa de compatibilidad de PC: cómo asegurarte que todo funciona a la perfeccion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 3 Vida SSD-->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 3">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://hardzone.es/tutoriales/mantenimiento/vida-util-ssd-problemas-funcionamiento/"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Vida de un SSD</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Como saber la vida que le queda a tu SSD.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 4 RAM-->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 4">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://hardzone.es/tutoriales/componentes/memoria-ram-velocidad-elegir-gaming-trabajo/"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Que tipo de Ram necesito</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Comprueba que tipo de RAM necesitas, para gaming o trabajar.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tarjeta 5 Windows sin bloatware -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 5">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://www.youtube.com/watch?v=5pQWeAYt8Zo"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Instala W11 sin basura
+                                                       </a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Instalacion de W11 sin bloatware,ia,optimizado.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta 6 Mantenimiento -->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 5">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://hardzone.es/tutoriales/mantenimiento/realizar-mantenimiento-completo-pc/"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Mantenimiento de tu PC</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Cómo hacer un mantenimiento adecuado al PC y que funcione como el primer día</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta 7 sobrecalentamiento-->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 5">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://hardzone.es/tutoriales/componentes/elegir-refrigeracion-liquida-aio-pc/"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Tu pc arde?</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Porque se calienta tanto el pc y como solucionarlo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta 8 Intel o AMD-->
+                            <div class="flex-shrink-0" style="width: calc(25% - 9px); min-width: 250px; height: 90px;">
+                                <div class="card h-100 overflow-hidden shadow-sm">
+                                    <div class="row g-0 align-items-center h-100">
+                                        <div
+                                            class="foto col-4 h-100 d-flex align-items-center justify-content-center p-1">
+                                            <img src="assets/calcuFont.png" class="img-fluid"
+                                                style="max-height: 100%; object-fit: contain;" alt="Logo 5">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body p-2">
+                                                <h6 class="card-title m-0">
+                                                    <a href="https://hardzone.es/tutoriales/compras/intel-vs-amd-procesador-pc/"
+                                                        target="miFrame"
+                                                        class="text-decoration-none fw-bold small text-truncate d-block">Intel o AMD</a>
+                                                </h6>
+                                                <p class="card-text text-muted mb-0"
+                                                    style="font-size: 0.75rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                                    Comprueba la mejor manera de elegir el procesador que necesitas segun tus necesidades</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!-- Cierre contenedor flex -->
+                    </div>
+                </div>
+            
+
+        </div>
+        <main>
+
+            <iframe src="inx.html" frameborder="1" name="miFrame"></iframe>
+        </main>
+    </div>
+</body>
+
+</html>
