@@ -1,0 +1,21 @@
+[
+    {
+        "id": "rufus",
+        "name": "Rufus",
+        "category": "diagnostico",
+        "description": "Crear USB booteables.",
+        "url": "https://rufus.ie/",
+        "icon": "assets/diagnostico/rufus.png",
+        "license": "GPL",
+         "platform": [
+        "Windows"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "USB",
+            "Boot"
+        ]
+    }
+]
